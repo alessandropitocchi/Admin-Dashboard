@@ -194,7 +194,7 @@ ul{
     color: var(--var-color);
 }
 
-@media (max-width:1000px){
+@media (max-width:1200px){
 
     html{
         background-color: var(--var-bgcolor);
