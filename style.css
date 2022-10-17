@@ -200,8 +200,14 @@ ul{
         background-color: var(--var-bgcolor);
     }
 
-    html, body, .cntainer{
-        width:100%;
+    html, body, .container{
+        padding: 0;
+        margin: 0px;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 26x;
     }
 
     .container{
@@ -215,11 +221,24 @@ ul{
     .leftPanel{
         width: 100%;
         border-right: 0px;
+        padding-left: 40px;
+        text-align: center;
+        gap:0px;
     }
 
     .header{
-        width:100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
+    .profile p{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .searchBar{
+        font-size: 16px;
     }
 
     .main{
@@ -230,18 +249,39 @@ ul{
         width: 100%;
     }
 
-    .leftPanel ul{
-        display: flex;
-        justify-content: space-between;
-        gap: 50px;
+    .profile{
+        gap: 20px;
     }
 
-    .logo{
-        visibility: hidden;;
+    .leftPanel ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        font-size: 14px;
+    }
+
+    .mainContainer{
+        padding-top: 30px;
+    }
+
+    .links{
+        font-size: 16px;
+    }
+
+    .options{
+        font-size: 16px;
     }
 
     .cap{
         font-size: 16px;
+    }
+
+    .img2{
+        width: 100%;
     }
 
 }
